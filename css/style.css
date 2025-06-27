@@ -315,6 +315,73 @@ ul li {
 .portfolio .text h5 {
   color: #ff5252;
 }
+/* ------------------------------
+  testimonial
+---------------------------------*/
+.testimonial {
+  padding: 140px 0;
+  background: linear-gradient(rgba(5, 4, 4, 0.69), rgba(5, 4, 4, 0.74)), url(../images/testimonial.jpg);
+  background-attachment: scroll, scroll;
+  background-size: auto, auto;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff8f8;
+}
+.testimonial .content {
+  position: relative;
+  padding: 30px;
+  border-radius: 15px;
+  background: #fff;
+  color: #676576;
+}
+.testimonial .content h5 {
+  color: #333333;
+}
+.testimonial .icon {
+  float: left;
+  margin-right: 20px;
+}
+.testimonial .icon i {
+  color: #ff5252;
+  font-size: 80px;
+}
+.testimonial .text {
+  overflow: hidden;
+}
+.testimonial .text h5 {
+  color: #333333;
+}
+
+/* ------------------------------
+  contact
+---------------------------------*/
+.contact {
+  padding: 120px 0;
+}
+.contact h2 {
+  color: #ff5252;
+  margin-bottom: 30px;
+}
+.contact ul {
+  margin-top: 30px;
+}
+.contact ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.contact ul li i {
+  font-size: 20px;
+  height: 35px;
+  width: 35px;
+  background: #333333;
+  color: #ffffff;
+  line-height: 35px;
+  border-radius: 50%;
+}
+.contact ul li i:hover {
+  background: #ff5252;
+}
+
 
 
 
