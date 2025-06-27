@@ -226,4 +226,96 @@ ul li {
 .intro .content-image img {
   width: 80%;
 }
+/* ------------------------------
+  features
+---------------------------------*/
+.features {
+  margin-top: -180px;
+}
+.features .content {
+  border-radius: 15px;
+  padding: 50px 40px;
+  background: #333333;
+}
+.features .content .content-box {
+  position: relative;
+  margin: 5px 0;
+}
+.features .content .icon {
+  float: left;
+  margin-right: 20px;
+}
+.features .content .icon i {
+  color: #ff5252;
+  font-size: 80px;
+}
+.features .content .text {
+  color: #eee;
+  overflow: hidden;
+}
+.features .content .text h5 {
+  color: #ffffff;
+}
+
+/* ------------------------------
+  services
+---------------------------------*/
+.services {
+  padding: 120px 0 140px;
+}
+.services h2 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.services i {
+  background: #ff5252;
+  color: #ffffff;
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  line-height: 58px;
+  font-size: 28px;
+}
+.services .content {
+  padding: 40px;
+}
+.services .content-center {
+  border-radius: 10px;
+  box-shadow: 0 5px 38px -6px rgba(0, 0, 0, 0.14);
+}
+
+/* ------------------------------
+  portfolio
+---------------------------------*/
+.portfolio {
+  background: #fff8f8;
+  padding: 120px 0 140px;
+}
+.portfolio h2 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.portfolio img {
+  width: 100%;
+  border-radius: 15px;
+}
+.portfolio .text {
+  border-radius: 5px;
+  margin-left: 153px;
+  margin-right: 40px;
+  padding: 25px;
+  text-align: left;
+  top: -70px;
+  position: relative;
+  background: #fff;
+  margin-bottom: -40px;
+  box-shadow: 0 5px 38px -6px rgba(0, 0, 0, 0.14);
+}
+.portfolio .text h5 {
+  color: #ff5252;
+}
+
+
+
 
