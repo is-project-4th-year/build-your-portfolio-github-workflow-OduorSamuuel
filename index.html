@@ -6,11 +6,39 @@
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<title>Samuel Portfolio</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
 		<link rel="stylesheet" href="css/magnific-popup.css">
-		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 		<link rel="stylesheet" href="css/swiper.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<style>
+			/* Brand Colors for Technology Icons */
+			.brand-react { color: #61DAFB !important; }
+			.brand-js { color: #F7DF1E !important; }
+			.brand-html { color: #E34F26 !important; }
+			.brand-css { color: #1572B6 !important; }
+			.brand-bootstrap { color: #7952B3 !important; }
+			.brand-node { color: #339933 !important; }
+			.brand-java { color: #ED8B00 !important; }
+			.brand-php { color: #777BB4 !important; }
+			.brand-git { color: #F05032 !important; }
+			.brand-docker { color: #2496ED !important; }
+			.brand-mysql { color: #4479A1 !important; }
+			.brand-laravel { color: #FF2D20 !important; }
+			
+			/* Icon sizing consistency */
+			.services .content i {
+				font-size: 3rem;
+				margin-bottom: 1rem;
+			}
+			
+			/* Make brand icons stand out more */
+			.tech-icon {
+				margin: 0 8px;
+				font-size: 1.2rem;
+				vertical-align: middle;
+			}
+		</style>
 	</head>
 	<body>
 		
@@ -136,23 +164,40 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="content">
-							<i class="lab la-react"></i>
+							<i class="fab fa-react brand-react"></i>
 							<h5>Frontend Technologies</h5>
-							<p><i class="lab la-react"></i> React.js &nbsp; <i class="lab la-js-square"></i> JavaScript &nbsp; <i class="lab la-html5"></i> HTML5 &nbsp; <i class="lab la-css3-alt"></i> CSS3 &nbsp; <i class="lab la-bootstrap"></i> Bootstrap</p>
+							<p>
+								<i class="fab fa-react brand-react tech-icon"></i> React.js &nbsp;
+								<i class="fab fa-js-square brand-js tech-icon"></i> JavaScript &nbsp;
+								<i class="fab fa-html5 brand-html tech-icon"></i> HTML5 &nbsp;
+								<i class="fab fa-css3-alt brand-css tech-icon"></i> CSS3 &nbsp;
+								<i class="fab fa-bootstrap brand-bootstrap tech-icon"></i> Bootstrap
+							</p>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="content content-center">
-							<i class="lab la-node-js"></i>
+							<i class="fab fa-node-js brand-node"></i>
 							<h5>Backend Technologies</h5>
-							<p><i class="lab la-node-js"></i> Node.js &nbsp; <i class="lab la-java"></i> Java Spring Boot &nbsp; <i class="lab la-php"></i> PHP Laravel &nbsp; <i class="la la-cogs"></i> RESTful APIs</p>
+							<p>
+								<i class="fab fa-node-js brand-node tech-icon"></i> Node.js &nbsp;
+								<i class="fab fa-spring brand-java tech-icon"></i>  Spring Boot &nbsp;
+								<i class="fab fa-php brand-php tech-icon"></i> PHP  &nbsp;
+								<i class="fab fa-laravel brand-php tech-icon"></i>  Laravel &nbsp;
+								<i class="fas fa-cogs tech-icon"></i> RESTful APIs
+							</p>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="content">
-							<i class="la la-database"></i>
+							<i class="fas fa-database"></i>
 							<h5>Database & Tools</h5>
-							<p><i class="la la-database"></i> MySQL/PostgreSQL &nbsp; <i class="lab la-git-alt"></i> Git &nbsp; <i class="lab la-docker"></i> Docker &nbsp; <i class="la la-cloud"></i> Cloud Deploy</p>
+							<p>
+								<i class="fas fa-database brand-mysql tech-icon"></i> MySQL/PostgreSQL &nbsp;
+								<i class="fab fa-git-alt brand-git tech-icon"></i> Git &nbsp;
+								<i class="fab fa-docker brand-docker tech-icon"></i> Docker &nbsp;
+								<i class="fas fa-cloud tech-icon"></i> Cloud Deploy
+							</p>
 						</div>
 					</div>
 				</div>
@@ -194,7 +239,7 @@
 						<a href="images/Bilmsey.png" class="popup-image"><img src="images/Bilmsey.png" alt="Additional Project"></a>
 						<div class="text shadow-2xl">
 							<h5>Bilmsey</h5>
-							<p>Bilmsey is a  hotel booking website</p>
+							<p>Bilmsey is a hotel booking website</p>
 						</div>
 					</div>
 				</div>
@@ -203,66 +248,69 @@
 		<!-- end portfolio -->
 
 		
-		<!-- experience & achievements -->
-		<div id="experience" class="experience">
-			<div class="container">
-				<div class="title text-center mb-5">
-					<h5 style="color: white;">Experience & Achievements</h5>
-				</div>
-				<div class="swiper mySwiper">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="content shadow-2xl">
-								<div class="icon">
-									<i class="la la-code"></i>
-								</div>
-								<div class="text">
-									<h5>Full Stack Development</h5>
-									<span>2+ Years Experience</span>
-									<p>Specialized in building scalable web applications using React.js, Node.js, and modern databases. Successfully delivered 15+ projects with focus on performance optimization and user experience.</p>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="content shadow-2xl">
-								<div class="icon">
-									<i class="la la-mobile"></i>
-								</div>
-								<div class="text">
-									<h5>Responsive Design</h5>
-									<span>Mobile-First Approach</span>
-									<p>Expert in creating responsive, mobile-optimized websites that work seamlessly across all devices. Proficient in CSS frameworks and modern layout techniques.</p>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="content shadow-2xl">
-								<div class="icon">
-									<i class="la la-database"></i>
-								</div>
-								<div class="text">
-									<h5>Database Management</h5>
-									<span>Data Architecture</span>
-									<p>Experienced in designing and optimizing database schemas, implementing efficient queries, and ensuring data security across MySQL and PostgreSQL systems.</p>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="content shadow-2xl">
-								<div class="icon">
-									<i class="la la-cloud"></i>
-								</div>
-								<div class="text">
-									<h5>Cloud Deployment</h5>
-									<span>DevOps Integration</span>
-									<p>Skilled in deploying applications to cloud platforms, implementing CI/CD pipelines, and managing containerized applications with Docker for scalable solutions.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	<!-- experience & achievements -->
+<div id="experience" class="experience">
+    <div class="container">
+        <div class="title text-center mb-5">
+            <h5 style="color: white;">Experience & Achievements</h5>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="content shadow-2xl">
+                        <div class="icon">
+                            <i class="la la-code"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Full Stack Development</h5>
+                            <span>2+ Years Experience</span>
+                            <p>Specialized in building scalable web applications using React.js, Node.js, and modern databases. Successfully delivered 15+ projects with focus on performance optimization and user experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content shadow-2xl">
+                        <div class="icon">
+                            <i class="la la-mobile"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Responsive Design</h5>
+                            <span>Mobile-First Approach</span>
+                            <p>Expert in creating responsive, mobile-optimized websites that work seamlessly across all devices. Proficient in CSS frameworks and modern layout techniques.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content shadow-2xl">
+                        <div class="icon">
+                            <i class="la la-database"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Database Management</h5>
+                            <span>Data Architecture</span>
+                            <p>Experienced in designing and optimizing database schemas, implementing efficient queries, and ensuring data security across MySQL and PostgreSQL systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content shadow-2xl">
+                        <div class="icon">
+                            <i class="la la-cloud"></i>
+                        </div>
+                        <div class="text">
+                            <h5>Cloud Deployment</h5>
+                            <span>DevOps Integration</span>
+                            <p>Skilled in deploying applications to cloud platforms, implementing CI/CD pipelines, and managing containerized applications with Docker for scalable solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+       
+        </div>
+    </div>
+</div>
 		<!-- end experience -->
 
 		<!-- contact -->
@@ -273,8 +321,8 @@
 				<p>onyangos949@gmail.com </p>
 				<p> Nairobi, Kenya </p>
 				<ul>
-					<li><a href="https://github.com/OduorSamuuel" target="_blank" rel="noopener noreferrer"><i class="la la-github"></i></a></li>
-					<li><a href="https://ke.linkedin.com/in/samuel-onyango-983472273" target="_blank" rel="noopener noreferrer"><i class="la la-linkedin"></i></a></li>
+					<li><a href="https://github.com/OduorSamuuel" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+					<li><a href="https://ke.linkedin.com/in/samuel-onyango-983472273" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -286,7 +334,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="footer-content">
-							<h5>Samuel Portfolio</h5>
+							<h5>Samuel Onyango</h5>
 							<p>Full Stack Developer passionate about creating innovative web solutions. Let's build something amazing together.</p>
 						</div>
 					</div>
@@ -317,8 +365,8 @@
 					</div>
 					<div class="col-md-4 text-end">
 						<div class="footer-social">
-							<a href="https://github.com/OduorSamuuel" target="_blank" rel="noopener noreferrer" style="color: #ccc; margin-left: 15px; font-size: 18px;"><i class="la la-github"></i></a>
-							<a href="https://ke.linkedin.com/in/samuel-onyango-983472273" target="_blank" rel="noopener noreferrer" style="color: #ccc; margin-left: 15px; font-size: 18px;"><i class="la la-linkedin"></i></a>
+							<a href="https://github.com/OduorSamuuel" target="_blank" rel="noopener noreferrer" style="color: #ccc; margin-left: 15px; font-size: 18px;"><i class="fab fa-github"></i></a>
+							<a href="https://ke.linkedin.com/in/samuel-onyango-983472273" target="_blank" rel="noopener noreferrer" style="color: #ccc; margin-left: 15px; font-size: 18px;"><i class="fab fa-linkedin"></i></a>
 						</div>
 					</div>
 				</div>
