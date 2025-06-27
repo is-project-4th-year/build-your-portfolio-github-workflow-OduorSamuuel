@@ -2,15 +2,16 @@
 
 ## 1. Student Details
 
-- **Full Name**
-- **Admission Number**:
-- **GitHub Username**:
-- **Email**:
+- **Samuel Onyango**
+- **Admission Number**:152045
+- **GitHub Username**:OduorSamuuel
+- **Email**:samuel.onyango@strathmore.edu
 
 ## 2. Deployed Portfolio Link
 
-- **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+
+- **GitHub Pages URL**:  https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-OduorSamuuel/
+
 
 ## 3. Learnings from the Git Crash Program
 
