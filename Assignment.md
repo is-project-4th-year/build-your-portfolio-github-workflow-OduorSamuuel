@@ -2,7 +2,7 @@
 
 ## 1. Student Details
 
-- **Full Name**:
+- **Full Name**
 - **Admission Number**:
 - **GitHub Username**:
 - **Email**:
