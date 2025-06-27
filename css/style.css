@@ -318,7 +318,7 @@ ul li {
 /* ------------------------------
   testimonial
 ---------------------------------*/
-.testimonial {
+.experience {
   padding: 140px 0;
   background: linear-gradient(rgba(5, 4, 4, 0.69), rgba(5, 4, 4, 0.74)), url(../images/testimonial.jpg);
   background-attachment: scroll, scroll;
@@ -327,28 +327,28 @@ ul li {
   background-attachment: fixed;
   color: #fff8f8;
 }
-.testimonial .content {
+.experience .content {
   position: relative;
   padding: 30px;
   border-radius: 15px;
   background: #fff;
   color: #676576;
 }
-.testimonial .content h5 {
+.experience .content h5 {
   color: #333333;
 }
-.testimonial .icon {
+.experience .icon {
   float: left;
   margin-right: 20px;
 }
-.testimonial .icon i {
+.experience .icon i {
   color: #ff5252;
   font-size: 80px;
 }
-.testimonial .text {
+.experience .text {
   overflow: hidden;
 }
-.testimonial .text h5 {
+.experience .text h5 {
   color: #333333;
 }
 
